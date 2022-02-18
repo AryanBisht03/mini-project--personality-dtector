@@ -1,0 +1,400 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+	cout<<"***Read each statement given below***"<<endl;
+	cout<<"1.Use the answer key and grade your response from 0 to 4 depending on your behaviour in a similar situation"<<endl;
+	cout<<"2.There is no right or wrong answer.This is a tool to help you know about your personality.Please be honest while answering the questions"<<endl<<endl;
+	cout<<"***Answer Key***"<<endl;
+	cout<<"________________________________________________________________________________________________________________"<<endl;
+    cout<<"|                |                                                                                             |"<<endl;
+    cout<<"|KEY -> 4        | If it is most characteristic of you, or you always or almost always behave or feel this way.|"<<endl;
+    cout<<"|                |                                                                                             |"<<endl;
+    cout<<"|KEY -> 3        | If it is fairly true of you, or you quite often behave or feel this way.                    |"<<endl;
+    cout<<"|                |                                                                                             |"<<endl;
+    cout<<"|KEY -> 2        | If it is somewhat true in your case.                                                        |"<<endl;
+    cout<<"|                |                                                                                             |"<<endl;
+    cout<<"|KEY -> 1        | If it is rarely true of you, or you only occasionally behave or feel this way.              |"<<endl;
+    cout<<"|                |                                                                                             |"<<endl;
+    cout<<"|KEY -> 0        | If it is not at all characteristic of you ,or you never behave or feel this way.            |"<<endl;
+    cout<<"|________________|_____________________________________________________________________________________________|"<<endl;
+    cout<<endl<<endl;
+    cout<<"HERE YOU GO!!"<<endl<<endl;
+    int self=0;
+    int open=0;
+    int percep=0;
+    
+	cout<<"1. I find it difficult to be frank with people unless I know them very well."<<endl;
+    cout<<"Enter your choice"<<endl;
+    int choice;
+    cin>>choice;
+    switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	self=self+choice;
+    
+    
+    cout<<"2. I listen carefully to others people's opinions about my behaviour."<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+    open=open+choice;
+	 
+    
+    cout<<"3. I tend to say things that turn out to be out of place."<<endl;
+    cin>>choice;
+    switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	percep=percep+choice;
+    
+    cout<<"4. Generally, I hesitate to express my feelings to others."<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+	switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	self=self+choice;
+	
+    cout<<"5. When someone directly tells me how he feels about my behaviour, I tend to close up and stop listening"<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+	switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	open=open+choice;
+	cout<<"6. On hindsight ,I regret why I said something tactlessly."<<endl;
+    cin>>choice;
+    switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	percep=percep+choice;
+    
+    cout<<"7. I am quite strong in expressing my opinions in a group or to a person, even if this may be unacceptable"<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+    self=self+choice;
+	cout<<"8. I take steps to find out how my behaviour has been perceived by the person with whom I have been interacting"<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+    open=open+choice;
+	cout<<"9. I deliberately observe how a person will take what I am going to tell him, and accordingly communicate to him."<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+    percep=percep+choice;
+	cout<<"10. When someone discusses his problem, I do not spontaneously share my experiences and personal problems of a similer nature with him/her."<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+	switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	self=self+choice;
+	
+	cout<<"11. If people criticize me, I hear them at that time, but do not bother myself about it later."<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+	switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	open=open+choice;
+	cout<<"12. I fail to pick up cues about the feelings and reactions of others when i am involved in an argument or a conversation."<<endl;
+     cin>>choice;
+    switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	percep=percep+choice;
+    
+	cout<<"13. I enjoy talking with others about my personal concerns and matters"<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+    self=self+choice;
+	cout<<"14. I value what people have to say about my style, behaviour, etc"<<endl;
+    cout<<"Enter your choice"<<endl;
+    cin>>choice;
+    open=open+choice;
+	cout<<"15. I am often surprised to discover or be told that people were put off, bored or annoyed when I thought they were enjoying interacting with me."<<endl;
+    cin>>choice;
+    switch(choice)
+    {
+    	case 0:
+    		choice =4;
+    		break;
+    	
+		case 1:
+    		choice =3;
+    		break;
+    	
+		case 2:
+    		choice =2;
+    		break;
+    	
+		case 3:
+    		choice =1;
+    		break;
+    		
+    	case 4:
+    		choice =0;
+    		break;
+    	
+	}
+	percep=percep+choice;
+	string s="";
+    if(self<=12)
+    {
+    s=s+"L";
+    }
+	else
+	{   
+	s=s+"H";
+   }
+    if(open<=12)
+    {
+	s=s+"L";	
+	}
+    
+    else
+    {
+    s=s+"H";	
+	}
+    if(percep<=12)
+    {
+    s=s+"L";	
+	}
+    else
+    {
+	s=s+"H";
+	}
+    cout<<endl<<s;
+    if(s=="HHH")
+    {
+    	cout<<"YOUR PERSONALITY TYPE IS --> \"EFFECTIVE\""<<endl;
+    	cout<<"TRAITS WHICH YOU ARE HAVING ARE-"<<endl;
+		cout<<"1.CAPABLE--"<<endl;
+		cout<<"There’s no exception to this trait. I’ve never met an effective, happy, or successful person who wasn’t capable. They take their life and work seriously. They do things with a purpose. And most importantly, they know what they are talking about."<<endl;
+		cout<<"2.CURIOUS--"<<endl;
+		cout<<"Effective people avoid assumptions. This used to be my biggest pitfall. I made assumptions about everything. One of my co-workers once told it to me straight: Stop making so many assumptions! That’s what I did. I decided to become curious instead. Effective people ask a lot of questions. That’s how you avoid assumptions."<<endl;
+        cout<<"3.ASSERTIVE--"<<endl;
+        cout<<"People think you have to be nice. That’s wrong. It’s good to be polite, but you don’t have to go out of your way to be nice all the time. Effective people think about themselves. But they don’t sacrifice others. That’s what assertiveness is about."<<endl;
+        cout<<"4.FORGIVING--"<<endl;
+        cout<<"Holding grudges is the least effective thing you can do. So many people have destroyed relationships and group dynamics because of grudges. “How could that person do this to me!” Well, maybe that other person doesn’t even know why! People do stupid things. Move on."<<endl;
+        cout<<"5.INDEPENDENT--"<<endl;
+        cout<<"Effective people are not easily influenced by others. They listen to others. But they are independent thinkers. They are not easily swayed by outside events."<<endl;
+        cout<<"6.RESPECTFUL--"<<endl;
+        cout<<"You know how insecure people make subtle digs at you or other people? “You look so tired. What’s going on?” That’s one of those dirty remarks that’s meant to make you feel bad. There are a lot of people who want to put you down, which automatically makes them feel better than you. Respectful people never do that. You can also disagree with people and still be respectful. Basically, effective people are the opposite of internet trolls."<<endl;
+        cout<<"7.TRUTHFUL--"<<endl;
+        cout<<"When you regularly tell lies (no matter how small they are), you will eventually get caught by your own web. Call me superstitious (or a little-stitious, as Michael Scott once said), but I think lies will eventually catch up with you. That’s why it’s better to tell the truth. It’s not always pretty, but at least it’s not a lie."<<endl;
+        cout<<"8.PRECISE--"<<endl;
+        cout<<"It’s hard to explain things in a few words. It requires thought and effort to be precise. That’s why you see a lot of people talk endlessly. They don’t know what to say, so they use a shotgun approach. They spray words and hope a few will hit the mark. To be precise, you want to be like a marksman. Every sentence and action serves a purpose. "<<endl;
+        cout<<"9.FAIR--"<<endl;
+        cout<<"People who say that fairness is an impossible concept are usually not fair people. There are universal principles of fairness. In summary, be straight with people and don’t play favorites. Be consistent in the way you treat people. That’s the fairest thing we can do. And yes, that seems impossible in practice because it goes against our nature sometimes. But effective people do a lot of things that go against nature. They do things that others don’t do."<<endl;
+        cout<<"10.FLEXIBLE--"<<endl;
+        cout<<"Life is complex and full of change. To survive and thrive, one must adapt all the time. That’s why effective people are highly flexible and fluid. If you give them a new idea that works better than their old one, they go with the new one. They don’t care about their ego or looking smart. They care about what works."<<endl;
+        cout<<"11.SELF-AWARE--"<<endl;
+        cout<<"Knowing what you can and can’t, will make your life a lot easier. Too often, we’re not aware of who we are. But to be effective, you must know who you are and what you’re made of. And if you have weaknesses or make mistakes, self-awareness will help you to be honest about it. There’s nothing wrong with imperfection. In fact, if you’re not imperfect, you’re probably a robot."<<endl;
+        cout<<"12.OPTIMISTIC--"<<endl;
+        cout<<"Give effective people a challenge, and they’ll think about a solution. Give them a bleak outlook, and they’ll find things to be grateful for. In contrast, being pessimistic is the easiest thing in the world. Everyone can complain and say “we can’t do that.” But it takes strength to say \“let’s figure out a way to make it happen\"."<<endl;
+        cout<<endl<<endl;
+	}
+    else if(s=="HHL")
+    {
+    	cout<<"YOUR PERSONALITY TYPE IS --> \"INSENSITIVE\""<<endl;
+    	cout<<"Logic and practicality are two of your biggest strengths and the reason you’re considered a rock by those around you. Because of your almost clinical approach to life and relationships, you can find it hard to relate to people who act with their heart first and their head second. In highly delicate situations, \“think before you speak\” (or send that scathing email) can probably save you some skin in the long run."<<endl;
+	}
+	else if(s=="HLH")
+	{
+		cout<<"YOUR PERSONALITY TYPE IS --> \"DOGMATIC\""<<endl;
+		cout<<"you have the tendency to act in a blindly certain, assertive, and authoritative manner in accordance with a strongly held set of beliefs."<<endl;
+	}
+	
+	else if(s=="HLL")
+	{
+		cout<<"YOUR PERSONALITY TYPE IS --> \"SECRETIVE\""<<endl;
+		cout<<"A person may be secretive because they are manipulative or untrustworthy. They keep secrets so as to be able to control others and protect themselves. That's probably the worst case scenario. Those people will not respect others' secrets: Information is power and they want more power."<<endl;
+		
+	}
+	else if(s=="LHH")
+	{
+		cout<<"YOUR PERSONALITY TYPE IS --> \"LONELY EMPHATHETIC\""<<endl;
+		cout<<"An empath feels and absorbs other people’s emotions and/or physical symptoms. They have a hard time intellectualizing their feelings."<<endl;
+		cout<<"Centering oneself is key for someone who is an empath so they don't feel too much or get overloaded."<<endl;
+		cout<<"Empaths, who are often introverted, often need alone time and can have difficulty with intimate relationships."<<endl;
+	}
+	else if(s=="LHL")
+	{
+		cout<<"YOUR PERSONALITY TYPE IS --> \"EGOCENTRIC\""<<endl;
+		cout<<"An egocentric personality is usually linked to arrogance, ambition, and, in some cases, exhibitionism. People with this type of personality tend to think they’re the most important person in the room and that all eyes should be on them at all times."<<endl;
+		cout<<"People who couldn’t care less about other people’s opinions and only focus on their own are egocentric. When we say that someone is self-centered, we mean that they only see the world from their point of view. In other words, they lack the ability to empathize and don’t care about the consequences of their actions."<<endl;
+	}
+	else if(s=="LLH")
+	{
+		cout<<"YOUR PERSONALITY TYPE IS --> \"TASK OBSESSED\"";
+        cout<<"If someone has given you a task to do then you are obsessed with the task, you keep thinking about the task and find it difficult to think about anything else."<<endl;
+        
+	}
+	else if(s=="LLL")
+	{
+		cout<<"YOUR PERSONALITY TYPE IS --> \"INEFFECTIVE\""<<endl;
+		cout<<"This is the lowest and worst personality trait"<<endl;
+		cout<<"you have to work on yourself to get a higher personality trait"<<endl;
+	}
+	return 0;
+}
